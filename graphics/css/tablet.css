@@ -1,0 +1,346 @@
+.show{
+    transform: scale(.67,.67);
+    position: absolute;
+    top:-170px;
+    left:-320px;
+    width:1920px;
+    height:1080px;
+    overflow: hidden;
+}
+
+.p1-big{
+    width: 316px;
+    height:316px;
+    background-image: url(../img/p1_big.png);
+    float:left;
+    font-size:75px;
+    color:#000000;
+    transform: rotate(90deg);
+    text-align: center;
+    line-height: 316px;
+    font-family: D-DIN-Bold;
+}
+.p1-sm-1{
+    width: 172px;
+    height:316px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-image: url(../img/p1_sm.png);
+    color:#000000;
+    font-family: D-DIN-Bold;
+    
+}
+.p1-sm-2{
+    width: 172px;
+    height:316px;
+    top:316px;
+    left:0px;
+    background-image: url(../img/p1_sm.png);
+    color:#000000;
+    text-align: center;
+    font-family: D-DIN-Bold;
+    position: absolute;
+}
+.p1-sm-txt{
+    transform: rotate(90deg);
+    text-align: center;
+    width: 316px;
+    height: 172px;
+    line-height: 172px;
+    font-size: 50px;
+    position: absolute;
+    top: 72px;
+    left: -72px;
+    color:#000000
+}
+.p2-big{
+    width: 316px;
+    height:316px;
+    background-image: url(../img/p2_big.png);
+    float:left;
+    font-size:75px;
+    color:#000000;
+    transform: rotate(270deg);
+    text-align: center;
+    line-height: 316px;
+    font-family: D-DIN-Bold;
+}
+.p2-sm-1{
+    width: 172px;
+    height:316px;
+    background-image: url(../img/p2_sm.png);
+    top:0px;
+    left:0px;
+    font-size:75px;
+    color:#000000;
+    text-align: center;
+    line-height: 316px;
+    font-family: D-DIN-Bold;
+    position: absolute;
+}
+.p2-sm-2{
+    width: 172px;
+    height:316px;
+    background-image: url(../img/p2_sm.png);
+    top:316px;
+    left:0px;
+    font-size:75px;
+    color:#000000;
+    text-align: center;
+    line-height: 316px;
+    font-family: D-DIN-Bold;
+    position: absolute;
+}
+.p2-sm-txt{
+    transform: rotate(270deg);
+    text-align: center;
+    width: 316px;
+    height: 172px;
+    line-height: 172px;
+    font-size: 50px;
+    position: absolute;
+    top: 72px;
+    left: -72px;
+    color:#000000
+}
+.tablet-container{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:1920px;
+    height:1080px;
+
+}
+
+.top-bar{
+    width:1920px;
+    height:130px;
+    background: linear-gradient(90deg, rgba(110,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 70%, rgba(0,0,110,1) 100%);
+    position: absolute;
+    top:0px;
+    left:0px;
+    color:#ffffff;
+    font-size:65px;
+    font-family: D-DIN-Bold;
+}
+.p1-side{
+    width: 632px;
+    height: 950px;
+    position: absolute;
+    top:130px;
+    left:0px;
+
+}
+.center-area{
+    position: absolute;
+}
+.p2-side{
+    width: 632px;
+    height: 950px;
+    position: absolute;
+    top:130px;
+    left:1288px;
+
+}
+.p1-nameplate{
+    position:absolute;
+    left:15px;
+    width:945px;
+    height:130px;
+    line-height:130px;
+}
+.p2-nameplate{
+    position:absolute;
+    text-align: right;
+    left:960px;
+    width:945px;
+    height:130px;
+    line-height:130px;
+ }
+ .scorebox{
+    width:260px;
+    height:130px;
+    line-height: 130px;
+    left:830px;
+    position:absolute;
+    top:0px;
+    text-align: center;
+    font-size:95px;
+ }
+ .center-area{
+    position: absolute;
+    top:130px;
+    left:632px;
+    width:656px;
+    height:316px;
+    background-color: black;
+ }
+ .p1-life{
+    font-family: D-DIN-Bold;
+    font-size:95px;
+    color:#ffffff;
+    line-height:150px;
+    width:328px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left:0px;
+ }
+ .p2-life{
+    font-family: D-DIN-Bold;
+    font-size:95px;
+    color:#ffffff;
+    line-height:150px;
+    width:328px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left:328px;
+ }
+ .p1-infect{
+    font-family: D-DIN-Bold;
+    font-size:75px;
+    color:#1a9b00;
+    line-height:150px;
+    width:50px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left:0px;
+ }
+ .p2-infect{
+    font-family: D-DIN-Bold;
+    font-size:75px;
+    color:#1a9b00;
+    line-height:150px;
+    width:50px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left:606px;
+ }
+ .round-box{
+    font-family: D-DIN-Bold;
+    font-size:35px;
+    color:#fa9600;
+    line-height:25px;
+    width:328px;
+    text-align: center;
+    position: absolute;
+    top:150px;
+    left:328px;
+ }
+ .time-box{
+    font-family: D-DIN-Bold;
+    font-size:75px;
+    color:#faf600;
+    line-height:25px;
+    width:328px;
+    text-align: center;
+    position: absolute;
+    top:150px;
+    left:0px;
+ }
+ .win-box{
+    font-family: D-DIN-Bold;
+    font-size:75px;
+    color:#ffffff;
+    line-height:25px;
+    width:656px;
+    height:100px;
+    text-align: center;
+    position: absolute;
+    top:216px;
+    left:0px;
+    background-color: gray;
+ }
+ .win-label{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 90px;
+    width:256px;
+    background-color: #000000;
+    border: 5px;
+    border-color: #ffffff;
+    border-style: solid;
+    float: left;
+ }
+ .minus-button{
+    width:100px;
+    height:100px;
+    float: left;
+    background-image: url(../img/minus.png);
+ }
+ .plus-button{
+    width:100px;
+    height:100px;
+    float: left;
+    background-image: url(../img/plus.png);
+ }
+ .p1-aux{
+    width:172px;
+    height:634px;
+    position: absolute;
+    top:316px;
+    left:0px;
+
+ }
+ .p2-aux{
+    width:172px;
+    height:634px;
+    position: absolute;
+    top:316px;
+    left:484px;
+ }
+ .neutral-aux{
+    width:312px;
+    height:634px;
+    position: absolute;
+    top:316px;
+    left:172px;
+ }
+ .fsbutton{
+    position: absolute;
+    left:20px;
+    top:40px;
+    width:272px;
+    height:40px;
+    background-color: darkblue;
+    color:#ffffff;
+    text-align: center;
+    font-family: D-DIN;
+    font-size: 25px;;
+    line-height: 40px;
+    border-radius: 10px;
+ }
+
+ .swapbutton{
+    position: absolute;
+    left:20px;
+    top:100px;
+    width:272px;
+    height:60px;
+    background-color: rgb(251, 255, 0);
+    color:#000000;
+    text-align: center;
+    font-family: D-DIN;
+    font-size: 25px;;
+    line-height: 60px;
+    border-radius: 10px;
+ }
+
+ .resetbutton{
+    position: absolute;
+    left:20px;
+    top:200px;
+    width:272px;
+    height:60px;
+    background-color: rgb(255, 0, 0);
+    color:#000000;
+    text-align: center;
+    font-family: D-DIN;
+    font-size: 25px;;
+    line-height: 60px;
+    border-radius: 10px;
+ }

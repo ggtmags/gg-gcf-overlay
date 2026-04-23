@@ -1,0 +1,93 @@
+.bracket{
+    width:1920px;
+    height:1080px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/bracket-placeholder.png");
+    color: #07214f;
+    font-family: poppins-medium;
+}
+.qf-holder{
+    position: absolute;
+    left: 60px;
+    font-size: 20px;
+    width: 288px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 10px;
+}
+.sf-holder{
+    position: absolute;
+    left: 482px;
+    font-size: 25px;
+    width: 332px;
+    height: 70px;
+    line-height: 69px;
+    padding-left: 15px;
+}
+.gf-holder{
+    position: absolute;
+    left: 973px;
+    font-size: 25px;
+    width: 372px;
+    height: 77px;
+    line-height: 74px;
+    padding-left: 15px;
+}
+.champ-holder{
+    position: absolute;
+    font-size: 25px;
+    width: 410px;
+    height: 86px;
+    line-height: 85px;
+    padding-left: 15px;
+    text-align: center;
+}
+.match1-1{
+    top:58px;
+}
+.match1-2{
+    top:187px;
+}
+.match2-1{
+    top:318px;
+}
+.match2-2{
+    top:448px;
+}
+.match3-1{
+    top:578px;
+}
+.match3-2{
+    top:709px;
+}
+.match4-1{
+    top:839px;
+}
+.match4-2{
+    top:969px;
+}
+.match5-1{
+    top:118px;
+}
+.match5-2{
+    top:379px;
+}
+.match6-1{
+    top:639px;
+}
+.match6-2{
+    top:900px;
+}
+.match7-1{
+    top:244px;
+}
+.match7-2{
+    top:765px;
+}
+.match8-1{
+    top: 500px;
+    left: 1479px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <style>
+        .uk-form-width-small {
+            width: 125px;
+        }
+        .uk-button-small {
+            padding: 0px 5px;
+            line-height: 28px;
+            font-size: .875rem;
+        }
+        input.uk-form-width-xsmall {
+            width: 35px;
+        }
+    </style>
+
+</head>
+<body>
+    <fieldset class="uk-grid-small" class="uk-fieldset">
+        <div class="uk-margin">
+            
+            <div class="uk-float-left">
+                <input class="uk-input uk-form-width-xsmall uk-form-small" id="com_timer_min" type="text" placeholder="00">:
+                <input class="uk-input uk-form-width-xsmall uk-form-small" id="com_timer_sec" type="text" placeholder="00">
+                <button class="uk-button uk-button-secondary uk-button-small" id="combutton_set">Set</button>
+                <button class="uk-button uk-button-secondary uk-button-small" id="combutton_start">Start</button>
+                <button class="uk-button uk-button-secondary uk-button-small" id="combutton_stop">Stop</button><br/>
+            </div>
+        </div>
+    </fieldset>
+</body>
+<script src="js/com_timer.js"></script>
+</html>

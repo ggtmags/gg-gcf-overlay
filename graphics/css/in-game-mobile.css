@@ -1,0 +1,110 @@
+.scorebar-main{
+    width:1920px;
+    height:120px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/in-game.png");
+}
+.scorebar-main-vertical{
+    width:1080px;
+    height:1920px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/vertical-in-game.png");
+    background-repeat: no-repeat;
+}
+/*Desktop Styles */
+.round-name{
+    position: absolute;
+    left: 321px;
+    top: 1077px;
+    width: 438px;
+    height: 54px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.round-text{
+    background-image: url(../img/quarterfinals.png);
+    width: 100%;
+    height: 100%;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p1-name{
+    position: absolute;
+    left: 20px;
+    top: 988px;
+    width: 930px;
+    height: 43px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    overflow: hidden;
+    text-align: right;
+    line-height: 40px;
+}
+.p1-record{
+    position: absolute;
+    left: 20px;
+    top: 988px;
+    width: 775px;
+    height: 43px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 40px;
+}
+
+.p2-name{
+    position: absolute;
+    left: 130px;
+    top: 276px;
+    width: 930px;
+    height: 43px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 40px;
+}
+.p2-record{
+    position: absolute;
+    left: 130px;
+    top: 276px;
+    width: 930px;
+    height: 43px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    overflow: hidden;
+    text-align: right;
+    line-height: 40px;
+}
+.p1-score{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 1001px;
+    top: 978px;
+    padding: 14px;
+}
+.p2-score{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    left: 15px;
+    top: 264px;
+    padding: 14px;
+}

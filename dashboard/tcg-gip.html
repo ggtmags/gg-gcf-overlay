@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/gip.css" crossorigin="anonymous">
+    
+    <!-- Compressed JavaScript -->
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-6">
+                <div class="text-line">
+                    Player 1 (Bottom)
+                    <div class="input-group">
+                        <span class="input-group-label">Player Name</span>
+                        <input class="input-group-field" type="text" id="p1_name">
+                    </div>
+                </div>
+                <div class="text-line">
+                    <div class="input-group">                      
+                        <div class="button-group">
+                            <span class="input-group-label">Record</span>
+                            <input class="input-group-field record-field" type="text" id="p1_record">
+                            <span class="input-group-label">Game Wins</span>
+                            <a class="alert button" id="p1winminus">-1</a>
+                            <input class="input-group-field" type="text" id="p1_wins">
+                            <a class="success button" id="p1winplus">+1</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cell small-6">
+                <div class="text-line">
+                    Player 2 (Top)
+                    <div class="input-group">
+                        <span class="input-group-label">Player Name</span>
+                        <input class="input-group-field" type="text" id="p2_name">
+                    </div>
+                </div>
+                <div class="text-line">
+                    <div class="input-group">                      
+                        <div class="button-group">
+                            <span class="input-group-label">Record</span>
+                            <input class="input-group-field record-field" type="text" id="p2_record">
+                            <span class="input-group-label">Game Wins</span>
+                            <a class="alert button" id="p2winminus">-1</a>
+                            <input class="input-group-field" type="text" id="p2_wins">
+                            <a class="success button" id="p2winplus">+1</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cell small-12">
+                <div class="text-line">
+                    <div class="input-group">
+                        <span class="input-group-label">Tournament Round</span>
+                        <input class="input-group-field" type="text" id="round">
+                    </div>
+                </div>
+            </div>
+            <div class="expanded button-group no-gaps">
+                <a class="alert button" id="resetgame">Reset Game</a>
+                <a class="secondary button" id="gamebutton2">Call Nintendo</a>
+                <a class="warning button" id="swapgame">Swap Sides</a>
+                <a class="success button" id="updategame">Update</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/gip.js"></script>

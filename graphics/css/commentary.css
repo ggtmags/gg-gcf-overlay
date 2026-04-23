@@ -1,0 +1,68 @@
+.l3-main{
+    width:1920px;
+    height:1080px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/main-l3.png");
+    background-repeat: no-repeat;
+}
+.l3-bestdressed{
+    width:1920px;
+    height:1080px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/best-dressed-l3.png");
+    background-repeat: no-repeat;
+}
+.com2box{
+    width:1920px;
+    height:1080px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/2box-nameplate.png");
+    background-repeat: no-repeat;
+}
+.comname{
+    position: absolute;
+    top: 825px;
+    width: 605px;
+    height: 140px;
+    line-height: 135px;
+    font-size: 50px;
+    text-align: center;
+}
+.comsocial{
+    position: absolute;
+    top: 965px;
+    width: 440px;
+    height: 67px;
+    line-height: 67px;
+    font-size: 25px;
+    text-align: center;
+}
+.com1{
+    left: 145px;
+}
+.com2{
+    left: 1162px;
+}
+.com1-box{
+    left: 260px;
+    top: 843px;
+}
+.com2-box{
+    left: 1225px;
+    top: 843px;
+}
+.com1s{
+    left: 227px;
+}
+.com2s{
+    left: 1254px;
+}

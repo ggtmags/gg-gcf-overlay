@@ -1,0 +1,128 @@
+.scorebar-main{
+    width:1920px;
+    height:120px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/in-game.png");
+}
+.scorebar-main{
+    width:1920px;
+    height:120px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/in-game-frame.png");
+}
+.scorebar-main-vertical{
+    width:1080px;
+    height:1920px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    font-family: eras-itc-bold;
+    background-image: url("../img/mortise/vertical-in-game.png");
+    background-repeat: no-repeat;
+}
+/*Desktop Styles */
+.round-name{
+    position: absolute;
+    left: 59px;
+    top: 156px;
+    width: 360px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.round-name-frame{
+    position: absolute;
+    left: 59px;
+    top: 268px;
+    width: 360px;
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.round-text{
+    background-image: url(../img/quarterfinals.png);
+    width: 100%;
+    height: 100%;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p1-name{
+    position: absolute;
+    left: 60px;
+    top: 1055px;
+    width: 775px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    overflow: hidden;
+    text-align: right;
+    line-height: 27px;
+}
+.p1-record{
+    position: absolute;
+    left: 60px;
+    top: 1055px;
+    width: 775px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 27px;
+}
+
+.p2-name{
+    position: absolute;
+    left: 1090px;
+    top: 0px;
+    width: 775px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    overflow: hidden;
+    text-align: left;
+    line-height: 24px;
+}
+.p2-record{
+    position: absolute;
+    left: 1090px;
+    top: 0px;
+    width: 775px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    overflow: hidden;
+    text-align: right;
+    line-height: 24px;
+}
+.p1-score{
+    width: 59px;
+    height: 60px;
+    position: absolute;
+    left: 874px;
+    top: 1004px;
+    padding: 12px;
+}
+.p2-score{
+    width: 59px;
+    height: 60px;
+    position: absolute;
+    left: 988px;
+    top: 16px;
+    padding: 12px;
+}

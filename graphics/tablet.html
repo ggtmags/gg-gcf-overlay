@@ -1,0 +1,62 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/tablet.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/colors.css" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+</head>
+<body class="show">
+    <div class="tablet-container">
+        <div class="top-bar">
+            <div class="p1-nameplate"><span id="p1_name">Player 1 Name Here</span></div>
+            <div class="p2-nameplate"><span id="p2_name">Player 2 Name Here</span></div>
+            <div class="scorebox"><span id="p1_wins">0</span> - <span id="p2_wins">0</span></div>
+        </div>
+        <div class="p1-side">
+            <a class="p1-big" id="p1minus1">-10</a>
+            <a class="p1-big" id="p1plus1">+10</a>
+            <a class="p1-big" id="p1minus2">-5</a>
+            <a class="p1-big" id="p1plus2">+5</a>
+            <a class="p1-big" id="p1minus3">-1</a>
+            <a class="p1-big" id="p1plus3">+1</a>
+        </div>
+        <div class="center-area">
+            <div class="life-area">
+                <div class="p1-life" id="p1_life">8000</div>
+                <div class="p2-life" id="p2_life">8000</div>
+                <div class="p1-infect" id="p1_infect">0</div>
+                <div class="p2-infect" id="p2_infect">0</div>
+            </div>
+            <div class="time-area"><div class="time-box"><span id="timermin"></span>:<span id="timersec"></span></div><span class="round-box" id="round"></span></div>
+            <div class="win-box">
+                <a class="minus-button" id="p1minuswin"></a>
+                <a class="plus-button" id="p1pluswin"></a>
+                <div class="win-label">GAME WINS</div>
+                <a class="minus-button" id="p2minuswin"></a>
+                <a class="plus-button" id="p2pluswin"></a>
+            </div>
+            <div class="p1-aux">
+                <div class="p1-sm-1"><a class="p1-sm-txt" id="p1infectminus"></a></div>
+                <div class="p1-sm-2"><a class="p1-sm-txt" id="p1infectplus"></a></div>
+            </div>
+            <div class="p2-aux">
+                <div class="p2-sm-1"><a class="p2-sm-txt" id="p2infectplus"></a></div>
+                <div class="p2-sm-2"><a class="p2-sm-txt" id="p2infectminus"></a></div>
+            </div>
+            <div class="neutral-aux">
+                <button class="fsbutton" onclick="openFullscreen();">Full Screen</button>
+                <a class="swapbutton" id="swapgame">Swap Sides</a>
+                <a class="resetbutton" id="resetgame">Reset Game</a>
+
+            </div>
+        </div>
+        <div class="p2-side">
+            <a class="p2-big" id="p2plus3">+10</a>
+            <a class="p2-big" id="p2minus3">-10</a>
+            <a class="p2-big" id="p2plus2">+5</a>
+            <a class="p2-big" id="p2minus2">-5</a>
+            <a class="p2-big" id="p2plus1">+1</a>
+            <a class="p2-big" id="p2minus1">-1</a>
+        </div>
+    </div>
+</body>
+<script src="js/tablet.js"></script>

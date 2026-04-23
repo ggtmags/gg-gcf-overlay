@@ -1,0 +1,145 @@
+@font-face {
+    font-family: D-DIN-Bold;
+    src:url("../fonts/D-DIN-Bold.otf");
+}
+@font-face {
+    font-family: D-DIN;
+    src:url("../fonts/D-DIN.otf");
+}
+@font-face {
+    font-family: DIN-Mono;
+    src:url("../fonts/DIN-Mono-Bold.ttf");
+}
+@font-face {
+    font-family: BebasNeue;
+    src:url("../fonts/BebasNeue-Regular.ttf");
+}
+@font-face {
+    font-family: eras-itc-bold;
+    src:url("../fonts/eras-itc-bold.ttf");
+}
+@font-face {
+    font-family: poppins-regular;
+    src:url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: poppins-medium;
+    src:url("../fonts/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: poppins-semibold;
+    src:url("../fonts/Poppins-SemiBold.ttf");
+}
+.hide{
+    display:none;
+}
+.gold-text{
+    color: #ffffff;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
+}
+.gold-text-sb{
+    color: #f8b541;
+    text-transform: uppercase;
+    -webkit-text-stroke: 4px black;
+    paint-order: stroke fill;
+}
+
+.gold-text-coms{
+    color: #f8b541;
+    text-transform: uppercase;
+    font-family: poppins-medium;
+}
+.purple-text{
+    color: #07214f;
+    font-family: poppins-medium;
+}
+.red-text{
+    color: #701010;
+    font-family: poppins-medium;
+}
+.score0{
+    background-image: url(../img/0.png);
+    width: 100%;
+    height: 100%;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.score1{
+    background-image: url(../img/1.png);
+    width: 100%;
+    height: 100%;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.score2{
+    background-image: url(../img/2.png);
+    width: 100%;
+    height: 100%;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.round1{
+    background-image: url(../img/round1.png);
+}
+.round2{
+    background-image: url(../img/round2.png);
+}
+.round3{
+    background-image: url(../img/round3.png);
+}
+.round4{
+    background-image: url(../img/round4.png);
+}
+.round5{
+    background-image: url(../img/round5.png);
+}
+.round6{
+    background-image: url(../img/round6.png);
+}
+.round7{
+    background-image: url(../img/round7.png);
+}
+.round8{
+    background-image: url(../img/round8.png);
+}
+.round9{
+    background-image: url(../img/round9.png);
+}
+.round10{
+    background-image: url(../img/round10.png);
+}
+.round11{
+    background-image: url(../img/round11.png);
+}
+.round12{
+    background-image: url(../img/round12.png);
+}
+.round13{
+    background-image: url(../img/round13.png);
+}
+.round14{
+    background-image: url(../img/round14.png);
+}
+.round32{
+    background-image: url(../img/top32.png);
+}
+.round16{
+    background-image: url(../img/top16.png);
+}
+.roundqf{
+    background-image: url(../img/quarterfinals.png);
+}
+.roundsf{
+    background-image: url(../img/semifinals.png);
+}
+.roundgf{
+    background-image: url(../img/grandfinals.png);
+}

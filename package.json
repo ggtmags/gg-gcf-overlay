@@ -1,0 +1,95 @@
+{
+    "name": "gg-gcf-overlay",
+    "version": "1.0.0",
+    "description": "For Streaming a crazy Pokemon tourmament",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  
+    "author": "",
+    "license": "MIT",
+  
+    "nodecg": {
+      "compatibleRange": ">=0.9",
+      "dashboardPanels": [
+        {
+          "name": "pokemon-game-in-progress",
+          "title": "Game In Progress",
+          "width": 7,
+          "file": "tcg-gip.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "GCF"
+        },
+        {
+          "name": "pokemon-commentary",
+          "title": "Talent",
+          "width": 7,
+          "file": "commentary.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "GCF"
+        },
+        {
+          "name": "Round Timer",
+          "title": "Round Timer",
+          "width": 3,
+          "file": "com_timer2.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "GCF"
+        }
+      ],
+      "graphics": [
+        {
+          "file": "tablet.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "basic-overlay.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "in-game.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "in-game-frame.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "in-game-vertical.html",
+          "width": 1080,
+          "height": 1920
+        },
+        {
+          "file": "commentary.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "commentary-best-dressed.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "host.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "2box.html",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "file": "bracket.html",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    }
+  }
+  
