@@ -1,20 +1,22 @@
 .scorebar-main{
     width:1920px;
-    height:120px;
+    height:1080px;
     position: absolute;
     top:0px;
     left:0px;
     font-family: eras-itc-bold;
     background-image: url("../img/mortise/in-game.png");
+    background-repeat: no-repeat;
 }
-.scorebar-main{
+.scorebar-main-frame{
     width:1920px;
-    height:120px;
+    height:1080px;
     position: absolute;
     top:0px;
     left:0px;
     font-family: eras-itc-bold;
     background-image: url("../img/mortise/in-game-frame.png");
+    background-repeat: no-repeat;
 }
 .scorebar-main-vertical{
     width:1080px;
