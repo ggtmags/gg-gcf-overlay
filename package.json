@@ -36,6 +36,14 @@
           "file": "com_timer2.html",
           "headerColor": "#9f9bbd",
           "workspace": "GCF"
+        },
+        {
+          "name": "Bracket",
+          "title": "Bracket",
+          "width": 7,
+          "file": "bracket.html",
+          "headerColor": "#9f9bbd",
+          "workspace": "GCF"
         }
       ],
       "graphics": [
