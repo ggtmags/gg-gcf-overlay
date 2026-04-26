@@ -368,6 +368,27 @@ round_rep.on('change', (newValue, oldValue) => {
         document.getElementById("t_round").classList.remove("roundqf");
         document.getElementById("t_round").classList.remove("roundsf");
         document.getElementById("t_round").classList.remove("roundgf");
+    } else if (round_rep.value == "Top 16" ){
+        document.getElementById("t_round").classList.remove("round1");
+        document.getElementById("t_round").classList.remove("round2");
+        document.getElementById("t_round").classList.remove("round3");
+        document.getElementById("t_round").classList.remove("round4");
+        document.getElementById("t_round").classList.remove("round5");
+        document.getElementById("t_round").classList.remove("round6");
+        document.getElementById("t_round").classList.remove("round7");
+        document.getElementById("t_round").classList.remove("round8");
+        document.getElementById("t_round").classList.remove("round9");
+        document.getElementById("t_round").classList.remove("round10");
+        document.getElementById("t_round").classList.remove("round11");
+        document.getElementById("t_round").classList.remove("round12");
+        document.getElementById("t_round").classList.remove("round13");
+        document.getElementById("t_round").classList.remove("round14");
+        document.getElementById("t_round").classList.remove("round15");
+        document.getElementById("t_round").classList.remove("round32");
+        document.getElementById("t_round").classList.add("round16");
+        document.getElementById("t_round").classList.remove("roundqf");
+        document.getElementById("t_round").classList.remove("roundsf");
+        document.getElementById("t_round").classList.remove("roundgf");
     } else if (round_rep.value == "Quarterfinals" ){
         document.getElementById("t_round").classList.remove("round1");
         document.getElementById("t_round").classList.remove("round2");
@@ -410,7 +431,7 @@ round_rep.on('change', (newValue, oldValue) => {
         document.getElementById("t_round").classList.remove("roundqf");
         document.getElementById("t_round").classList.add("roundsf");
         document.getElementById("t_round").classList.remove("roundgf");
-    } else if (round_rep.value == "Grand Finals" ){
+    } else if(round_rep.value == "Grand Finals" ){
         document.getElementById("t_round").classList.remove("round1");
         document.getElementById("t_round").classList.remove("round2");
         document.getElementById("t_round").classList.remove("round3");
