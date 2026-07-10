@@ -48,22 +48,7 @@
       ],
       "graphics": [
         {
-          "file": "tablet.html",
-          "width": 1920,
-          "height": 1080
-        },
-        {
-          "file": "basic-overlay.html",
-          "width": 1920,
-          "height": 1080
-        },
-        {
           "file": "in-game.html",
-          "width": 1920,
-          "height": 1080
-        },
-        {
-          "file": "in-game-frame.html",
           "width": 1920,
           "height": 1080
         },
