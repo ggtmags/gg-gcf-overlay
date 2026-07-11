@@ -66,3 +66,14 @@
 .com2s{
     left: 1254px;
 }
+.gfx-fix{    
+    width: 609px;
+    height: 359px;
+    position: absolute;
+    top: 728px;
+    left: 664px;
+    font-family: eras-itc-bold;
+    background-image: url(../img/GCF Encore.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
