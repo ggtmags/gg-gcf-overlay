@@ -73,7 +73,7 @@
     top: 728px;
     left: 664px;
     font-family: eras-itc-bold;
-    background-image: url(../img/GCF Encore.png);
+    background-image: url("../img/GCF Encore.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
